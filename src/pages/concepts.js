@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -15,9 +14,10 @@ const ConceptsPage = () => (
       domains.
       <a
         target="_blank"
+        rel="noopener noreferrer"
         href="https://www.prodpad.com/resources/guides/product-management-process/"
       >
-        <img src={pmdomains} />
+        <img src={pmdomains} alt="A product manager should represent the intersection between the technical, customer and business domains." />
       </a>
     </p>
 
@@ -27,6 +27,7 @@ const ConceptsPage = () => (
       a product exists. A concept that grows more and more every day is the{" "}
       <a
         target="_blank"
+        rel="noopener noreferrer"
         href="https://hbr.org/2007/02/understanding-customer-experience"
       >
         customer experience management
@@ -51,6 +52,7 @@ const ConceptsPage = () => (
     <p>
       <a
         target="_blank"
+        rel="noopener noreferrer"
         href="https://en.wikipedia.org/wiki/Agile_software_development"
       >
         Agile Methods
@@ -59,42 +61,61 @@ const ConceptsPage = () => (
     <p>
       <a
         target="_blank"
+        rel="noopener noreferrer"
         href="https://www.strategyzer.com/canvas/business-model-canvas"
       >
         Business Model Canvas
       </a>
     </p>
     <p>
-      <a target="_blank" href="https://en.wikipedia.org/wiki/Deep_learning">
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://en.wikipedia.org/wiki/Deep_learning"
+      >
         Deep Learning
       </a>
     </p>
     <p>
-      <a target="_blank" href="https://leankanban.com/project/what-is-km/">
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://leankanban.com/project/what-is-km/"
+      >
         Kanban
       </a>
     </p>
     <p>
-      <a target="_blank" href="https://en.wikipedia.org/wiki/OKR">
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://en.wikipedia.org/wiki/OKR"
+      >
         Objectives and Key Results
       </a>
     </p>
     <p>
       <a
         target="_blank"
+        rel="noopener noreferrer"
         href="https://trydesignlab.com/blog/what-is-service-design/"
       >
         Service Design
       </a>
     </p>
     <p>
-      <a target="_blank" href="https://en.wikipedia.org/wiki/SMART_criteria">
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://en.wikipedia.org/wiki/SMART_criteria"
+      >
         SMART -> Specific, Measurable, Assignable, Realistic, Time-bound
       </a>
     </p>
     <p>
       <a
         target="_blank"
+        rel="noopener noreferrer"
         href="https://www.strategyzer.com/canvas/value-proposition-canvas"
       >
         Value Proposition

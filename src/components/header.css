@@ -1,0 +1,81 @@
+header#mainHeader {
+  margin-bottom: 1.45rem;
+}
+
+header#mainHeader {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 1.45rem 1.0875rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+header#mainHeader > a > img {
+  height: 42px;
+}
+
+#mainHeader > div {
+  text-align: right;
+  padding: 10px;
+}
+
+#mainHeader > div.menu-open {
+  background-color: hsla(0, 0%, 0%, 0.05)
+}
+
+#mainHeader > div > div.menu-icon {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+#mainHeader > div > div.menu-icon > div {
+  width: 35px;
+  height: 5px;
+  background-color: hsla(0, 0%, 0%, 0.6);
+  margin: 3px 0;
+}
+
+#mainHeader > div > nav.menu {
+  list-style: none;
+  display: none;
+}
+#mainHeader > div.menu-open > nav.menu {
+  display: block;
+}
+
+header#mainHeader > div > nav.menu > li {
+  margin-left: 50px;
+  font-size: 1.2em;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+header#mainHeader > div > nav.menu > li > a, 
+header#mainHeader > div > nav.menu > li > a:hover, 
+header#mainHeader > div > nav.menu > li > a:visited {
+  color: #707070;
+  text-decoration: none;
+}
+
+header#mainHeader > div > nav.menu > li > a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  #mainHeader > div.menu-open {
+    background-color: transparent;
+  }
+
+  #mainHeader > div > div.menu-icon {
+    display: none;
+  }
+
+  #mainHeader > div > nav.menu,
+  #mainHeader > div.menu-open > nav.menu {
+    display: flex;
+  }
+}
+

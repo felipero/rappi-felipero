@@ -1,0 +1,49 @@
+header.about-me {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+header.about-me > img {
+  border-radius: 50%;
+  height: 200px;
+}
+header.about-me > div {
+  margin-left: 30px;
+}
+header.about-me > div > h1 {
+  margin: 0 0 10px 0;
+}
+header.about-me > div > p {
+  color: #FE7077;
+  margin-bottom: 0.5rem;
+}
+header.about-me > div > p > a {
+  color: hsla(0, 0%, 0%, 0.7);
+  text-decoration: none;
+}
+header.about-me > div > a {
+  margin: 0 10px 0 0;
+}
+
+.recommendations > p:before {
+  content:url('../images/aspas.png');
+  display: block;
+  float: left;
+  margin-right: 15px;
+}
+.recommendations > p {
+  font-style: italic;
+  border-top: 1px solid hsla(0, 0%, 0%, 0.2);
+  padding-top: 30px;
+}
+.recommendations > h3 + p {
+  border-top: none;
+}
+
+.recommendations > p > span {
+  display: block;
+  padding-top: 10px;
+  font-style: normal;
+  color: hsla(0, 0%, 0%, 0.8)
+}

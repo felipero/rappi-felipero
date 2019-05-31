@@ -1,58 +1,8 @@
-body {
-   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    line-height: normal;
-}
-
-header#mainHeader {
-  margin-bottom: 1.45rem;
-}
-
-header#mainHeader > div {
-  margin: 0 auto;
-  max-width: 960px;
-  padding: 1.45rem 1.0875rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-header#mainHeader > div > img {
-  height: 42px;
-}
-
-header#mainHeader > div > nav {
-  list-style: none;
-  display: flex;
-}
-
-header#mainHeader > div > nav > li {
-  margin-left: 50px;
-  font-size: 1.2em;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-header#mainHeader > div > nav > li > a, 
-header#mainHeader > div > nav > li > a:hover, 
-header#mainHeader > div > nav > li > a:visited {
-  color: #707070;
-  text-decoration: none;
-}
-
-header#mainHeader > div > nav > li > a:hover {
-  text-decoration: underline;
-}
-
 div#mainContainer {
   margin: 0 auto;
   max-width: 960px;
   padding: 0px 1.0875rem 1.45rem;
   padding-top: 0;
-}
-
-div#mainContainer h1 {
-  margin-bottom: 2em;
 }
 
 div.choice {
@@ -67,6 +17,7 @@ div.choice > div {
   color: #fff;
   font-size: 1.7em;
   text-align: center;
+  border-radius: 10px;
 }
 
 div.choice > div:first-child {

@@ -21,8 +21,7 @@ const QuickAssigmentPage = () => (
     </p>
 
     <h3>
-      c. How would you determine what technology would most help improve this
-      KPI?
+      How would you determine what technology would most help improve this KPI?
     </h3>
     <h4>Strategic Considerations</h4>
     <p>
@@ -70,7 +69,7 @@ const QuickAssigmentPage = () => (
     </p>
 
     <h3>
-      d. Let’s assume that an important project to help improve this KPI is
+      Let’s assume that an important project to help improve this KPI is
       improving the geographic distribution of delivery people across the city.
       Making the assumptions necessary, explain what exact features you would
       develop and why. Please detail how you would manage the necessary
@@ -79,24 +78,10 @@ const QuickAssigmentPage = () => (
 
     <h4>Features I would develop</h4>
     <p>Considering the examples I gave above, I would develop 4 features:</p>
-    <ol>
-      <li>
-        Pricing per region, allowing to charge more from customers in scarse
-        areas;
-      </li>
-      <li>
-        Create a gamification program to the rappitenderos who accept further
-        orders;
-      </li>
-      <li>
-        Show a map with the bonuses areas, allowing rappitenderos to position
-        closer to them;
-      </li>
-      <li>Improve the features above based on a deep learning machine.</li>
-    </ol>
 
     <h5>
-      Pricing per region, allowing to charge more from customers in scarse areas
+      1. Pricing per region, allowing to charge more from customers in scarse
+      areas
     </h5>
     <p>
       Assuming that some areas have less demand and consequently less
@@ -107,7 +92,7 @@ const QuickAssigmentPage = () => (
     </p>
 
     <h5>
-      Create a gamification program to the rappitenderos who accept further
+      2. Create a gamification program to the rappitenderos who accept further
       orders
     </h5>
     <p>
@@ -118,7 +103,7 @@ const QuickAssigmentPage = () => (
     </p>
 
     <h5>
-      Show a map with the bonuses areas, allowing rappitenderos to position
+      3. Show a map with the bonuses areas, allowing rappitenderos to position
       closer to them
     </h5>
 
@@ -129,7 +114,7 @@ const QuickAssigmentPage = () => (
       specific area, what kind of orders they are getting there.
     </p>
 
-    <h5>Improve the features above based on a deep learning machine</h5>
+    <h5>4. Improve the features above based on a deep learning machine</h5>
     <p>
       The features listed above require some intelligence to be prepared before
       it operates. We could use plain old statistics to understand it. So could
